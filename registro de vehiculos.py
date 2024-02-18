@@ -1,23 +1,23 @@
 class carro: 
-    def _init_(self, marca, modelo, año,): 
+    def __init__(self, marca, modelo, año,): 
         self.marca = marca
         self.modelo = modelo
         self.año = año 
 
 class motos: 
-    def _init_(self, marca, modelo, año): 
+    def __init__(self, marca, modelo, año): 
         self.marca = marca
         self.modelo = modelo
         self.año = año
 
 class aviones: 
-    def _init_(self, marca, modelo, año): 
+    def __init__(self, marca, modelo, año): 
         self.marca = marca
         self.modelo = modelo
         self.año = año
 
 class barcos: 
-    def _init_(self, marca, modelo, año): 
+    def __init__(self, marca, modelo, año): 
         self.marca = marca
         self.modelo = modelo
         self.año = año
